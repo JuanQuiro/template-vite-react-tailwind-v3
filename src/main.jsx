@@ -1,11 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
+import "../dist/output.css";
+import Header from "./Headers";
+import { Formulario } from "./Formulario";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <Formulario />
   </React.StrictMode>,
   document.getElementById("root")
 );

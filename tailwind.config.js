@@ -1,7 +1,12 @@
 module.exports = {
-  content: ['index.html','./src/**/*.{js,jsx,ts,tsx,vue,html}'],
+  darkMode: "class",
+  content: ["index.html", "./src/**/*.{js,jsx,ts,tsx,vue,html}"],
   theme: {
     extend: {},
   },
-  plugins: [],
-}
+  plugins: [require("@tailwindcss/forms"), require("daisyui")],
+
+  daisyui: {
+    themes: ["cupcake", "dark", "cmyk"],
+  },
+};
