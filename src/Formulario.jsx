@@ -35,7 +35,7 @@ export const Formulario = () => {
       <div className=" flex flex-wrap justify-around bg-purple-600">
         <button
           onClick={(e) => {
-            const 
+            alert("Fin");
           }}
         >
           <p className="btn btn-accent my-2 text-black">Enviar</p>
